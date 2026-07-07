@@ -1,0 +1,42 @@
+{
+  "title": "穴埋め暗記ライブラリ",
+  "defaultSet": "sample",
+  "items": [
+    {
+      "type": "folder",
+      "title": "情報・信号処理",
+      "children": [
+        {
+          "type": "folder",
+          "title": "DSP",
+          "children": [
+            {
+              "type": "set",
+              "title": "DSP09 直交変換",
+              "path": "dsp/dsp09",
+              "description": "直交基底、DFT、DCT"
+            },
+            {
+              "type": "set",
+              "title": "DSP10 フィルタ",
+              "path": "dsp/dsp10",
+              "description": "FIRとIIRの導入例"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "folder",
+      "title": "サンプル",
+      "children": [
+        {
+          "type": "set",
+          "title": "読み物型サンプル",
+          "path": "sample",
+          "description": "本文の中に穴埋めが点在する例"
+        }
+      ]
+    }
+  ]
+}
