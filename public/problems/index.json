@@ -1,28 +1,94 @@
 {
   "title": "穴埋め暗記ライブラリ",
-  "defaultSet": "sample",
+  "defaultSet": "情報通信ネットワークA/講義資料1",
   "items": [
     {
       "type": "folder",
-      "title": "情報・信号処理",
+      "title": "情報通信ネットワークA",
       "children": [
         {
-          "type": "folder",
-          "title": "DSP",
-          "children": [
-            {
-              "type": "set",
-              "title": "DSP09 直交変換",
-              "path": "dsp/dsp09",
-              "description": "直交基底、DFT、DCT"
-            },
-            {
-              "type": "set",
-              "title": "DSP10 フィルタ",
-              "path": "dsp/dsp10",
-              "description": "FIRとIIRの導入例"
-            }
-          ]
+          "type": "set",
+          "title": "講義資料1 情報通信技術の7つのコンセプト",
+          "path": "情報通信ネットワークA/講義資料1",
+          "description": "通信技術を理解する基本概念"
+        },
+        {
+          "type": "set",
+          "title": "講義資料2 物理層",
+          "path": "情報通信ネットワークA/講義資料2",
+          "description": "通信路、伝送媒体、多重化"
+        },
+        {
+          "type": "set",
+          "title": "講義資料3-1 データリンク層",
+          "path": "情報通信ネットワークA/講義資料3-1",
+          "description": "フレーム化、誤り制御、誤り検出"
+        },
+        {
+          "type": "set",
+          "title": "講義資料3-2 データリンク層",
+          "path": "情報通信ネットワークA/講義資料3-2",
+          "description": "誤り訂正、フロー制御、MAC"
+        },
+        {
+          "type": "set",
+          "title": "講義資料4 インターネット層",
+          "path": "情報通信ネットワークA/講義資料4",
+          "description": "IPアドレス、管理、経路制御"
+        },
+        {
+          "type": "set",
+          "title": "講義資料5 IPを拡張する技術",
+          "path": "情報通信ネットワークA/講義資料5",
+          "description": "IPパケット、ARP、NAT、IPv6"
+        },
+        {
+          "type": "set",
+          "title": "講義資料6 ルーティング",
+          "path": "情報通信ネットワークA/講義資料6",
+          "description": "最短経路、経路制御プロトコル"
+        },
+        {
+          "type": "set",
+          "title": "講義資料7 トランスポート層",
+          "path": "情報通信ネットワークA/講義資料7",
+          "description": "TCP、UDP、QUIC"
+        },
+        {
+          "type": "set",
+          "title": "講義資料8 DNS",
+          "path": "情報通信ネットワークA/講義資料8",
+          "description": "ドメイン名、名前解決、DNSの機能"
+        },
+        {
+          "type": "set",
+          "title": "講義資料9-1 文字コード技術",
+          "path": "情報通信ネットワークA/講義資料9-1",
+          "description": "文字集合、符号化方式、Unicode"
+        },
+        {
+          "type": "set",
+          "title": "講義資料9-2 インターネットアプリケーション",
+          "path": "情報通信ネットワークA/講義資料9-2",
+          "description": "電子メール、NTP、文字コード"
+        },
+        {
+          "type": "set",
+          "title": "講義資料10 Web",
+          "path": "情報通信ネットワークA/講義資料10",
+          "description": "HTTP、HTML、URL、キャッシュ"
+        },
+        {
+          "type": "set",
+          "title": "講義資料11-1 暗号・電子署名",
+          "path": "情報通信ネットワークA/講義資料11-1",
+          "description": "暗号技術、電子署名、セキュリティ"
+        },
+        {
+          "type": "set",
+          "title": "講義資料11-2 P2P",
+          "path": "情報通信ネットワークA/講義資料11-2",
+          "description": "P2P、BitTorrent、ブロックチェーン"
         }
       ]
     },
